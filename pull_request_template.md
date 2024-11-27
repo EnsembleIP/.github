@@ -17,8 +17,6 @@
 
 ---
 
-## Checklist
-
 ### ✅ Contributor Checklist
 
 - [ ] I have implemented all the features described in the user story or task.
