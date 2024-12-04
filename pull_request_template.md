@@ -17,9 +17,13 @@
 
 ---
 
-### ✅ Contributor Checklist
+### 👮‍♀️ Checklist
 
-Ensure all the following applies before requesting a review:
+<details>
+  <summary><h4>✅ Contributor Checklist</h4></summary>
+  <br>
+
+> ⚠️ Ensure all the following applies **before** requesting a review:
 
 - [ ] I have implemented all the features described in the user story or task.
 - [ ] I have rebased my branch on top of the latest `master` commit and resolved all conflicts.
@@ -33,8 +37,11 @@ Ensure all the following applies before requesting a review:
 - [ ] I have verified that no sensitive data (e.g., passwords, API keys) is exposed.
 - [ ] I have verified that new third-party dependencies are secure and actively maintained.
 - [ ] I have removed any debugging logs not intended for production.
+</details>
 
-### 🕵️‍♂️ Reviewer Checklist
+<details>
+  <summary><h4>🕵️‍♂️ Reviewer Checklist</h4></summary>
+  <br>
 
 - [ ] The code is clear, readable, and maintainable and adheres to the coding standards and guidelines.
 - [ ] The changes are consistent with the current system architecture and design principles.
@@ -44,9 +51,13 @@ Ensure all the following applies before requesting a review:
 - [ ] Appropriate error handling mechanisms are implemented.
 - [ ] The documentation is clear, concise, and up-to-date.
 - [ ] No sensitive information like passwords or API keys is included in the codebase.
+</details>
 
-### 🚦 Merge Checklist
+<details>
+  <summary><h4>🚦 Merge Checklist</h4></summary>
+  <br>
 
 - [ ] The branch is rebased on top of the latest `master` commit.
 - [ ] I have already merged all this repository dependencies.
 - [ ] The PR has been tested in staging or equivalent environment.
+</details>
