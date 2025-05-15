@@ -4,7 +4,8 @@
 
 ### 🌟 Key Changes
 
-- <!-- List the main changes introduced by this PR -->
+<!-- List the main changes introduced by this PR -->
+
 -
 
 ## 🔍 Related Issues
@@ -19,45 +20,17 @@
 
 ### 👮‍♀️ Checklist
 
-<details>
-  <summary><h4>✅ Contributor Checklist</h4></summary>
-  <br>
+<summary><h4>✅ Quality Checklist</h4></summary>
+<br>
 
-> ⚠️ Ensure all the following applies **before** requesting a review:
+- [ ] Code is tested, documented, and follows project standards
+- [ ] No sensitive data or debug logs are exposed
+- [ ] Changes are rebased on latest `master`
+- [ ] Dependencies are up-to-date and secure
 
-- [ ] I have implemented all the features described in the user story or task.
-- [ ] I have rebased my branch on top of the latest `master` commit and resolved all conflicts.
-- [ ] I have tested all features locally, covering:
-  - [ ] Positive scenarios.
-  - [ ] Error handling.
-  - [ ] Edge cases.
-- [ ] I have added tests that cover all relevant scenarios and edge cases.
-- [ ] I have added or updated documentation as necessary.
-- [ ] I have added or updated relevant comments in the code.
-- [ ] I have verified that no sensitive data (e.g., passwords, API keys) is exposed.
-- [ ] I have verified that new third-party dependencies are secure and actively maintained.
-- [ ] I have removed any debugging logs not intended for production.
-</details>
-
-<details>
-  <summary><h4>🕵️‍♂️ Reviewer Checklist</h4></summary>
-  <br>
-
-- [ ] The code is clear, readable, and maintainable and adheres to the coding standards and guidelines.
-- [ ] The changes are consistent with the current system architecture and design principles.
-- [ ] All debugging logs are removed or are redirected to the appropriate logging level (e.g., DEBUG).
-- [ ] The algorithms implemented are efficient and adequate for the use case.
-- [ ] Tests cover all relevant scenarios and edge cases.
-- [ ] Appropriate error handling mechanisms are implemented.
-- [ ] The documentation is clear, concise, and up-to-date.
-- [ ] No sensitive information like passwords or API keys is included in the codebase.
-</details>
-
-<details>
-  <summary><h4>🚦 Merge Checklist</h4></summary>
-  <br>
+<summary><h4>🚦 Merge Checklist</h4></summary>
+<br>
 
 - [ ] The branch is rebased on top of the latest `master` commit.
 - [ ] I have already merged all this repository dependencies.
-- [ ] The PR has been tested in staging or equivalent environment.
-</details>
+- [ ] The PR has been fully tested in devenv, staging or equivalent environment.
