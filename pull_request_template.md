@@ -2,34 +2,28 @@
 
 <!-- Provide a concise summary of the changes. Explain the purpose, approach, and impact of this PR. -->
 
+_Related issues:_ <!-- Link/reference any related Jira issues or PR (e.g., Fixes #123). -->
+
 ### 🌟 Key Changes
 
 <!-- List the main changes introduced by this PR -->
 
 -
 
-## 🔍 Related Issues
-
-<!-- Link to any related Jira issues or other PRs (e.g., Fixes #123). -->
-
-## 🧪 Testing
+### 🧪 Testing
 
 <!-- Describe how you tested this PR, including local tests and any automated tests added. -->
 
----
+## 👮‍♀️ Reviewer checklist
 
-### 👮‍♀️ Checklist
-
-<summary><h4>✅ Quality Checklist</h4></summary>
-<br>
+<h4>✅ Quality Checklist</h4>
 
 - [ ] Code is tested, documented, and follows project standards
 - [ ] No sensitive data or debug logs are exposed
 - [ ] Changes are rebased on latest `master`
 - [ ] Dependencies are up-to-date and secure
 
-<summary><h4>🚦 Merge Checklist</h4></summary>
-<br>
+<h4>🚦 Merge Checklist</h4>
 
 - [ ] The branch is rebased on top of the latest `master` commit.
 - [ ] I have already merged all this repository dependencies.
